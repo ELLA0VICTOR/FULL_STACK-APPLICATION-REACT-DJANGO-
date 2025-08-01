@@ -1,8 +1,8 @@
-version; 0.1
+version: 0.1
 
 endpoints:
-  - name:"REST API"
-    PORT:8008
-    TYPE: REST
+  - name: "REST API"
+    port: 8008
+    type: REST
     networkVisibility: Public
     context: /
