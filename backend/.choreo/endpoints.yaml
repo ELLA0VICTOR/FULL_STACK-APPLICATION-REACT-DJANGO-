@@ -1,8 +1,11 @@
-version: 0.1
-
+schemaVersion: "1.2"
 endpoints:
-  - name: "REST API"
-    port: 8008
-    type: REST
-    networkVisibility: Public
-    context: /
+    - name: rest-api-474
+      displayName: REST API
+      service:
+        basePath: /
+        port: 8008
+      type: REST
+      networkVisibilities:
+        - Project
+        - Public
