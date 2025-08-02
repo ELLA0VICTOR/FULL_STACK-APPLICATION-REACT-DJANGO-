@@ -4,7 +4,7 @@ import Home from "./pages/Home.jsx";
 import Login from "./pages/Login.jsx";
 import Register from "./pages/Register.jsx";
 import ProtectedRoute from "./components/ProtectedRoute.jsx";
-import NotFound from "./pages/Notfound.jsx";
+import NotFound from "./pages/NotFound.jsx";
 import "./App.css"
 
 function Logout() {
